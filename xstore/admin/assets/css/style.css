@@ -1,0 +1,259 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    font-family: SourceSansPro !important;
+    font-size: 14px;
+    color: #3c3d41;
+    background-color: #ffffff;
+    line-height: 22px;
+}
+
+.page {
+	padding: 0;
+	min-width: 680px;
+}
+.header-container {
+	background: #eee;
+	min-width: 1200px;
+}
+.header {
+	width: 1200px;
+    margin: auto;
+    height: 54px;
+}
+.table-logo {
+	width: 35%;
+	height: 54px;
+	background: #e11b1e;
+	float: left;
+}
+.logo {
+	float: left;
+	height: 54px;
+	width: 170px;
+}
+.logo p {
+	text-align: left;
+	padding: 16px 25px 16px 25px;
+	font-size: 20px; 
+	color: #FAD3D5; 
+	font-family: 'Bungee Inline', cursive;
+}
+.search {
+	float: right;
+	width: 239.5px;
+	height: 54px;
+	padding: 12px 0px 12px 25px;
+}
+.input-search{
+	height: 30px;
+}
+.button-search{
+	height: 30px;
+	width: 30px;
+}
+.table-menu {
+	width: 65%;
+	height: 53px;
+	float: right;
+}
+.table-menu ul {
+	list-style-type: none;
+	padding-left: 10px;
+	vertical-align: bottom;
+}
+.table-menu > ul > li {
+	color: #3c3d41;
+	display: inline-block;
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: bold;
+	height: 54px;
+	line-height: 26px;
+	width: 82px;
+	position: relative;
+	margin-left: 0 !important;
+}
+.table-menu > ul > li > a {
+	color: #3c3d41;
+	text-decoration: none;
+	display: block;
+	height: 54px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.table-menu > ul > li > a:hover {
+	background-color: #e11b1e;
+	color: #f1f1f1;
+}
+.table-menu ul > li > .sub-menu {
+	display: none;
+	position: absolute;
+	width: 165px;
+}
+.table-menu ul li:hover .sub-menu {
+	display: block;
+	padding-top: 10px;
+	z-index: 100;
+	background-color: #fff;
+}
+.table-menu ul >li > ul > li a {
+	color: #3c3d41;
+	font-size: 18px;
+}
+.sub-menu li { 
+	padding:0 !important;
+}
+.adv-container {
+	min-width: 1200px;
+	height: auto;
+}
+.adv {
+	width: 1200px;
+    margin: auto;
+    min-height: 340px;
+}
+.slides1 {
+	float: left;
+	width: 70%;	
+	margin-top: 10px;
+}
+.banner {
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+.clear{
+	overflow: auto;
+}
+.main-container {
+	min-width: 1200px;
+}
+.main {
+	width: 1200px;
+    margin: auto;
+    min-height: 1350px;
+}
+.product-phone {
+	width: 100%;
+	height: 410px;
+	border: 1px solid #DADADADA;
+	margin-top: 40px;
+	float: left;
+	clear: both;
+}
+.product-tablet {
+	width: 100%;
+	height: 410px;
+	border: 1px solid #DADADADA;
+	margin-top: 40px;
+	float: left;
+	clear: both;
+}
+.product-phukien {
+	width: 100%;
+	height: 410px;
+	border: 1px solid #DADADADA;
+	margin-top: 40px;
+	float: left;
+	clear: both;
+}
+.section-header {
+	height: 54px;
+	width: 100%;
+	float: left;
+	border: 1px solid #DADADADA;
+}
+.section-header p {
+	text-align: left;
+	color: #000000;
+	font-family: 'Bungee Inline', cursive;
+	font-size: 20px;
+	padding: 15px 0 15px 18px;
+}
+.product-container {
+	float: left;
+}
+.product-item {
+	float: left;
+	width: 239.6px;
+	height: 355px;
+	border: 1px solid #EEEEEE;
+	margin-bottom: 0;
+	padding: 0;
+}
+.caption{
+	padding: 9px;
+	width: 233px;
+	height: 95px;
+}
+.footer-container {
+	min-width: 1200px;
+	background: #eee;
+	margin-top: 20px;
+}
+.footer {
+	width: 1200px;
+	margin: auto;
+	min-height: 300px;
+
+}
+.contact{
+	width: 33%;
+	height: 100%;
+	float: left;
+}
+.help{
+	width: 33%;
+	height: 100%;
+	float: left;
+}
+.system {
+	width: 34%;
+	float: left;
+	height: 100%;
+}
+.bottom{
+	width: 100%;
+	height: 30px;
+	float: left;
+	text-align: center;
+}
+/* Dành cho điện thoại */
+@media all and (max-width: 480px) {
+ 
+}
+ 
+/* Dành cho máy tính bảng */
+@media all and (max-width: 1024px) {
+ 
+}
+<style>
+    /*jssor slider loading skin spin css*/
+    .jssorl-009-spin img {
+        animation-name: jssorl-009-spin;
+        animation-duration: 0.3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    @keyframes jssorl-009-spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+
+    /*jssor slider bullet skin 051 css*/
+    .jssorb051 .i {position:absolute;cursor:pointer;}
+    .jssorb051 .i .b {fill:#fff;fill-opacity:0.5;}
+    .jssorb051 .i:hover .b {fill-opacity:.7;}
+    .jssorb051 .iav .b {fill-opacity: 1;}
+    .jssorb051 .i.idn {opacity:.3;}
+
+    /*jssor slider arrow skin 051 css*/
+    .jssora051 {display:block;position:absolute;cursor:pointer;}
+    .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+    .jssora051:hover {opacity:.8;}
+    .jssora051.jssora051dn {opacity:.5;}
+    .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+</style>
